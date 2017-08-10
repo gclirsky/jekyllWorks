@@ -32,3 +32,24 @@ git reset --hard origin/master
 ```
 
 At the end local repository will be synchronized with remote repository.
+
+
+- Code Highlighter Test - C# codes
+
+```c#
+public test {
+    public void print(string name){
+        Console.WriteLine("Hello " + name);
+    }
+}
+```
+
+with hightlight command
+
+{% highlight c# %}
+public test {
+    public void print(string name){
+        Console.WriteLine("Hello " + name);
+    }
+}
+{% endhighlight %}

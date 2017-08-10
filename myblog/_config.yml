@@ -61,16 +61,16 @@ plugins:
 # JEKYLL_ENV=production jekyll build
 
 ################## - Default Configuration options - ###############################
-# # Where things are
-# source:       .
-# destination:  ./_site
-# plugins_dir:  _plugins
-# layouts_dir:  _layouts
-# data_dir:     _data
-# includes_dir: _includes
-# collections:
-#   posts:
-#     output:   true
+# Where things are
+source:       .
+destination:  ./_site 
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
 
 # # Handling Reading
 # safe:                 false
