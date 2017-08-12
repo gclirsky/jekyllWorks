@@ -46,7 +46,7 @@ public test {
 
 with hightlight command
 
-{% highlight c# %}
+{% highlight c# linenos %}
 public test {
     public void print(string name){
         Console.WriteLine("Hello " + name);
@@ -54,12 +54,17 @@ public test {
 }
 {% endhighlight %}
 
-
 ## Other Blogs
+
 <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{post.excerpt}}
     </li>
   {% endfor %}
 </ul>
+
+## Assets Image
+
+![Ferrari]({{site.baseurl}}/assets/img/Ferrari-250-LM-1.jpg)
